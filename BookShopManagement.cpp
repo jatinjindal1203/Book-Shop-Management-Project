@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <windows.h>
-#include "mysql.h"
+#include <mysql.h>
 #include <sstream>
 #include <conio.h>
 #define HOST "127.0.0.1"
@@ -12,7 +12,7 @@
 #define PASS ""
 #define DATABASE "Management"
 #define PORT 3306
-#define PASSWORD 12345
+#define PASSWORD 12345   /* Set your own password for your application */
 
 using namespace std;
 
@@ -36,7 +36,7 @@ typedef struct
 } date;
 
 // +----------------------------------+
-// |	         Classes Made 		  |
+// |	         Classes Made 	      |
 // +----------------------------------+
 
 class books
